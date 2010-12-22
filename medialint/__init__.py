@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 # Django settings for medialint_project project.
-__version__ = '0.1.8'
+__version__ = '0.1.8-CORE'
 
 from medialint.validators import CSSLint
 from medialint.compressor import CSSCompressor
