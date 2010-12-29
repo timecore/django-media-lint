@@ -30,4 +30,9 @@ setup(name='Django Media Lint',
     package_data = {
         'medialint': ['media', 'media/js', '/media/css'],
     },
+    install_requires=[
+        'cssutils'
+        'Django',
+    ],
+
 )
