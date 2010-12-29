@@ -17,10 +17,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from setuptools import setup, find_packages
-from medialint import __version__
+
+VERSION='0.1.8-CORE'
 
 setup(name='Django Media Lint',
-    version=__version__,
+    version=VERSION,
     description='CSS and JS lint checker for Django',
     author='Gabriel Falcao',
     author_email='gabriel@nacaolivre.org',
