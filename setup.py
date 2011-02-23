@@ -20,7 +20,7 @@ from setuptools import setup, find_packages
 
 VERSION='0.1.8-CORE'
 
-setup(name='Django Media Lint',
+setup(name='django-media-lint',
     version=VERSION,
     description='CSS and JS lint checker for Django',
     author='Gabriel Falcao',
